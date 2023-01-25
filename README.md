@@ -1,1 +1,1 @@
-# IoT solution simulating high velocity data extracted from smart electric metre
+# IoT solution simulating real-time high velocity data extracted from smart electric metre
