@@ -1,4 +1,4 @@
-#Project Overview
+
 
 IoT devives -> Kafka -> Spark Streaming -> Cassandra/Cosmos DB Database
 
