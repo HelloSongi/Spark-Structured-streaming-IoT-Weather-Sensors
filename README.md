@@ -1,3 +1,5 @@
+#Project Overview
+
 IoT devives -> Kafka -> Spark Streaming -> Cassandra/Cosmos DB Database
 
 A Change data capture (CDC) architecture in the context of IoT weather devices implemented using a combination of Apache Kafka, Apache Spark, and Apache Cassandra.
