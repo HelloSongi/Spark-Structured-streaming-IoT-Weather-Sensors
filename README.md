@@ -10,6 +10,6 @@ A Change data capture (CDC) architecture in the context of IoT weather sensors i
 
 3. Cassandra/Cosmos DB: The processed data from Spark is stored in Cassandra and/or Cosmos DB, which is a NoSQL database optimized for high-performance and scalability. Cassandra can store large amounts of data, and can handle high-volume write and read operations, making it a suitable choice for storing IoT weather data.
 
-In this setup, changes made to the data from the IoT weather sensors are captured and propagated to the target systems in real-time or near real-time, ensuring that the target systems have an up-to-date and accurate representation of the data. This setup also provides a high level of scalability, fault tolerance, and decoupling between the source and target systems, ensuring that the system can handle large amounts of data and handle failures without affecting the overall system.
+In this setup, changes made to the data from the IoT weather sensors are captured and propagated to the target systems in real-time or near real-time, ensuring that the target systems(Databases, Dashboards, etc..) have an up-to-date and accurate representation of the data. This setup also provides a high level of scalability, fault tolerance, and decoupling between the source and target systems, ensuring that the system can handle large amounts of data and handle failures without affecting the overall system.
 
                       
