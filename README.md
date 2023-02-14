@@ -1,5 +1,5 @@
+![Project Architecture](https://user-images.githubusercontent.com/69304233/218793766-60883e95-f696-46aa-9806-d7696ca8a4ef.png)
 
-![systemDesign](https://user-images.githubusercontent.com/69304233/218680880-24629021-8cb9-439a-9a4c-2e26f1db0632.png)
 
 
 A Change data capture (CDC) architecture in the context of IoT weather sensors implemented using a combination of Apache Kafka, Apache Spark, and Apache Cassandra.
