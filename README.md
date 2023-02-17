@@ -26,7 +26,7 @@ To visualize and analyze the data, we will be using Power BI. Power Bi will conn
 1. Collect real-time weather data using IoT sensors
 2. Process the data in real-time using Kafka and Spark Streaming
 3. Store the processed data in Cassandra for easy retrieval and analysis
-4. Generate interactive visualizations using Power Bito gain insights into the weather patterns and trends
+4. Generate interactive visualizations using Power Bi to gain insights into the weather patterns and trends
 
 ## Expected Outcomes:
 1. Real-time weather data collection and processing
