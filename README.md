@@ -6,14 +6,30 @@
 
 
 
-A Change data capture (CDC) architecture in the context of IoT weather sensors implemented using a combination of Apache Kafka, Apache Spark, and Apache Cassandra.
 
-1. Kafka: Changes made to the data from IoT weather sensors are captured and published as events to a Kafka topic. Kafka provides a scalable and fault-tolerant platform for real-time data streaming and integration.
+Project Description:
+A Change data capture (CDC) architecture in the context of weather IoT sensors to collect real-time data on temperature, humidity, air pressure, wind speed, and precipitation. The data will be collected continuously and stored in Cassandra, a highly scalable NoSQL database.
 
-2. Spark: The events from the Kafka topic are consumed using Spark, which  then process and transform the data in real-time. Spark is used to perform various data processing tasks, such as filtering, aggregating, and transforming the data.
+To process the data in real-time, we will be using Apache Kafka and Spark Streaming. Kafka will act as a messaging system to stream the data from the IoT sensors to Spark Streaming. Spark Streaming will process the data in real-time, perform analytics on the data, and output the results to Cassandra.
 
-3. Cassandra/Cosmos DB: The processed data from Spark is stored in Cassandra and/or Cosmos DB, which is a NoSQL database optimized for high-performance and scalability. Cassandra can store large amounts of data, and can handle high-volume write and read operations, making it a suitable choice for storing IoT weather data.
+To visualize and analyze the data, we will be using Power BI. Power Bi will connect to Cassandra and generate interactive visualizations to help us gain insights into the weather patterns and trends.
 
-In this setup, changes made to the data from the IoT weather sensors are captured and propagated to the target systems in real-time or near real-time, ensuring that the target systems(Databases, Dashboards, etc..) have an up-to-date and accurate representation of the data. This setup also provides a high level of scalability, fault tolerance, and decoupling between the source and target systems, ensuring that the system can handle large amounts of data and handle failures without affecting the overall system.
+Technology Stack:
 
-                      
+Weather IoT sensors
+Apache Kafka
+Spark Streaming
+Cassandra
+Power BI
+Project Goals:
+
+Collect real-time weather data using IoT sensors
+Process the data in real-time using Kafka and Spark Streaming
+Store the processed data in Cassandra for easy retrieval and analysis
+Generate interactive visualizations using Tableau to gain insights into the weather patterns and trends
+Expected Outcomes:
+
+Real-time weather data collection and processing
+Highly scalable and fault-tolerant data storage in Cassandra
+Interactive visualizations of weather patterns and trends in Tableau
+Improved decision-making for weather-related activities and operations
