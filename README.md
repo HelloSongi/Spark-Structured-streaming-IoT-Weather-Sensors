@@ -1,6 +1,8 @@
-# IoT Sensonr => Kafka => Spark => Cassandra => Tableau
+# Project Overview
 
 
+
+![Project](https://user-images.githubusercontent.com/69304233/220451608-c3f34112-6c2a-4278-a053-1c81a3588c51.png)
 
 
 # Project Description
