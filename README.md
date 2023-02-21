@@ -11,17 +11,15 @@ A Change data capture (CDC) architecture in the context of weather IoT sensors t
 
 To process the data in real-time, we will be using Apache Kafka and Spark Streaming. Kafka will act as a messaging system to stream the data from the IoT sensors to Spark Streaming. Spark Streaming will process the data in real-time, perform analytics on the data, and output the results to Cassandra.
 
-To visualize and analyze the data, we will be using Power BI. Power Bi will connect to Cassandra and generate interactive visualizations to help us gain insights into the weather patterns and trends.
+To visualize and analyze the data, we will be using Tableau. Tableau will connect to Cassandra and generate interactive visualizations to help us gain insights into the weather patterns and trends.
 
 ## Technology Stack:
 1. Weather IoT sensors
 2. Apache Kafka
 3. Spark Streaming
 4. Cassandra
-5. Power BI
+5. Tableau
 6. Docker
-7. Python
-8. Scala
 
 ## Project Goals:
 1. Collect real-time weather data using IoT sensors
@@ -32,5 +30,5 @@ To visualize and analyze the data, we will be using Power BI. Power Bi will conn
 ## Expected Outcomes:
 1. Real-time weather data collection and processing
 2. Highly scalable and fault-tolerant data storage in Cassandra
-3. Interactive visualizations of weather patterns and trends in Power Bi
+3. Interactive visualizations of weather patterns and trends in Tableau
 4. Improved decision-making for weather-related activities and operations
