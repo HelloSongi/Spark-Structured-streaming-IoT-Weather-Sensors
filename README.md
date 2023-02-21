@@ -18,6 +18,8 @@ To visualize and analyze the data, we will be using Power BI. Power Bi will conn
 4. Cassandra
 5. Power BI
 6. Docker
+7. Python
+8. Scala
 
 ## Project Goals:
 1. Collect real-time weather data using IoT sensors
