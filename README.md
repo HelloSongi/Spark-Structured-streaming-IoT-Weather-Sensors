@@ -32,3 +32,5 @@ To visualize and analyze the data, we will be using Tableau. Tableau will connec
 2. Highly scalable and fault-tolerant data storage in Cassandra
 3. Interactive visualizations of weather patterns and trends in Tableau
 4. Improved decision-making for weather-related activities and operations
+
+# Quick Start
