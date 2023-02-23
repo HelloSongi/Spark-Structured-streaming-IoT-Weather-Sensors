@@ -34,3 +34,44 @@ To visualize and analyze the data, we will be using Tableau. Tableau will connec
 4. Improved decision-making for weather-related activities and operations
 
 # Quick Start
+
+1. Start a Kafka server
+    * create a topic called ```weather```
+  
+2. Start a Cassandra database
+  *create a keyspace called ```weatherSensors``` (SimpleStrategy, replication=1)
+ ```
+ CREATE KEYSPACE weatherSensors
+ WITH replication = {'class': 'SimpleStrategy, 'replication_factor' : 1};
+ ```
+
+3. create a table called weather with the following schema
+ ```
+  CREATE TABLE weather (
+ 	uuid uuid primary key,
+ 	device text,
+ 	temp double,
+ 	humd double,
+ 	pres double
+ );
+ ```
+4. package up everything in a scala the file using Java/Scala the build tool:
+```
+sbt package
+```
+
+5. Run you spark, Kafka and cassandra using: 
+```
+spark-submit --class StreamHandler \
+--master local[*] \
+--packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.5,\
+	com.datastax.cassandra:cassandra-driver-core:4.0.0,\
+	com.datastax.spark:spark-cassandra-connector_2.11:2.4.3 \
+target/scala-2.11/stream-handler_2.11-1.0.jar
+```
+Then start running your "IoT devices" script:
+```
+./IoT_Weather_sens0rs.py
+```
+6. To view data in cassandra DB, run CQL shell ```./bin/cqlsh``` and ```select * from weather``` to see if the data is being processed saved correctly!
+
