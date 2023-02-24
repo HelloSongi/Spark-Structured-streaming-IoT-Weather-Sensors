@@ -1,8 +1,6 @@
 # Project Overview
+![1](https://user-images.githubusercontent.com/69304233/221230867-09d076fd-3aae-403b-b899-aa96b7631143.png)
 
-
-
-![Project](https://user-images.githubusercontent.com/69304233/220451608-c3f34112-6c2a-4278-a053-1c81a3588c51.png)
 
 
 # Project Description
@@ -19,7 +17,7 @@ To visualize and analyze the data, we will be using Tableau. Tableau will connec
 3. Spark Streaming
 4. Cassandra
 5. Tableau
-6. Docker
+
 
 ## Project Goals:
 1. Collect real-time weather data using IoT sensors
