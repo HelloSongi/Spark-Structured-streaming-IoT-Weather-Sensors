@@ -46,14 +46,19 @@ To visualize and analyze the data, we will be using Tableau. Tableau will connec
 
 3. create a table called weather with the following schema
  ```
-CREATE TABLE weather_updates (
-    id UUID PRIMARY KEY,
-    temperature float,
-    humidity int,
-    pressure int,
-    rain_1h float,
-    update_date timestamp
+CREATE TABLE weatherSensors (
+  date text,
+  locality_name text,
+  temperature_max int,
+  temperature_min int,
+  icon text,
+  text text,
+  humidity int,
+  wind int,
+  wind_direction text,
+  PRIMARY KEY (date, locality_name)
 );
+
 
  ```
 4. package up everything in a scala the file using Java/Scala the build tool:
