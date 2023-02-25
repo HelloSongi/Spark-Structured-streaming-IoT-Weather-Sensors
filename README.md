@@ -51,14 +51,11 @@ CREATE TABLE weatherSensors (
   locality_name text,
   temperature_max int,
   temperature_min int,
-  icon text,
-  text text,
   humidity int,
   wind int,
   wind_direction text,
   PRIMARY KEY (date, locality_name)
 );
-
 
  ```
 4. package up everything in a scala the file using Java/Scala the build tool:
