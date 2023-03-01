@@ -26,7 +26,7 @@ To visualize and analyze the data, we will be using Tableau. Tableau will connec
 3. Store the processed data in Cassandra for easy retrieval and analysis
 4. Generate interactive visualizations using Power Bi to gain insights into the weather patterns and trends
 
-## Expected Outcomes:
+## Expected Outcomes:,
 1. Real-time weather data collection and processing
 2. Highly scalable and fault-tolerant data storage in Cassandra
 3. Interactive visualizations of weather patterns and trends in Tableau
