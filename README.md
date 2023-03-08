@@ -79,3 +79,4 @@ Then start running your "IoT devices" script:
 6. To view data in cassandra DB, run CQL shell ```./bin/cqlsh``` and ```select * from weather``` to see if the data is being processed saved correctly!
 
 # Dashboarding
+![maxresdefault](https://user-images.githubusercontent.com/69304233/223769954-0bbc25ee-7f6f-4726-bfab-574c599c4c97.jpg)
