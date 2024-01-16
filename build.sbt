@@ -1,5 +1,5 @@
 
-name := "Data Stream Processor"
+name:= "Data Stream Processor"
 
 version := "1.0"
 
