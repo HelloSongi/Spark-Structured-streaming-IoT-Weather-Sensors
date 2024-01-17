@@ -6,7 +6,7 @@
 
 # Project Description
 
-A Change data capture architecture in the context of weather IoT sensors to collect real-time data on temp, humidity, air pressure, wind speed, and precipitation. The data will be collected continuously and stored in Cassandra, a highly scalable NoSQL database.
+A CDC architecture in the context of weather IoT sensors to collect real-time data on temp, humidity, air pressure, wind speed, and precipitation. The data will be collected continuously and stored in Cassandra, a highly scalable NoSQL database.
 
 To process the data in real-time, we will be using Apache Kafka and Spark Streaming. Kafka will act as a messaging system to stream the data from the IoT sensors to Spark Streaming. Spark Streaming will process the data in real-time, perform analytics on the data, and output the results to Cassandra.
 
